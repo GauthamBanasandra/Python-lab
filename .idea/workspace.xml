@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46fb0284-d1d2-491b-840a-c43198a22d59" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3/a/word_meanings.py" afterPath="$PROJECT_DIR$/3/a/word_meanings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/b/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/b/find.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/b/input.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Python_Lab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,21 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="word_meanings.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/3/a/word_meanings.py">
+      <file leaf-file-name="input.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3/b/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31007752">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="city_classify.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2/a/city_classify.py">
+      <file leaf-file-name="find.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3/b/find.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.89664084">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -58,8 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Week_8/4.py" />
-        <option value="$PROJECT_DIR$/Week_7/input_temp.txt" />
         <option value="$PROJECT_DIR$/Week_7/input2.txt" />
         <option value="$PROJECT_DIR$/Week_7/2.py" />
         <option value="$PROJECT_DIR$/Week_8/4b.py" />
@@ -109,6 +110,8 @@
         <option value="$PROJECT_DIR$/2/b/employee_db.py" />
         <option value="$PROJECT_DIR$/3/a/words_meanings.py" />
         <option value="$PROJECT_DIR$/3/a/word_meanings.py" />
+        <option value="$PROJECT_DIR$/3/b/input.txt" />
+        <option value="$PROJECT_DIR$/3/b/find.py" />
       </list>
     </option>
   </component>
@@ -191,7 +194,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="a" />
+              <option name="myItemId" value="b" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -205,21 +208,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python_Lab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python-lab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2" />
+              <option name="myItemId" value="3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -245,24 +234,7 @@
       <recent name="C:\Users\gauth_000\OneDrive\Documents\Programs\Python\Python_Lab\Gui\Pack" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.word_meanings">
-    <configuration default="false" name="server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1/B/UDP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python_Lab" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1/B/UDP/server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.find">
     <configuration default="false" name="client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,6 +299,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python_Lab" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3/a/word_meanings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="find" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3/b" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python_Lab" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3/b/find.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -454,19 +443,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.server (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.client (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.city_classify" />
-      <item index="3" class="java.lang.String" itemvalue="Python.employee_db" />
-      <item index="4" class="java.lang.String" itemvalue="Python.word_meanings" />
+      <item index="0" class="java.lang.String" itemvalue="Python.client (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.city_classify" />
+      <item index="2" class="java.lang.String" itemvalue="Python.employee_db" />
+      <item index="3" class="java.lang.String" itemvalue="Python.word_meanings" />
+      <item index="4" class="java.lang.String" itemvalue="Python.find" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.word_meanings" />
-        <item index="1" class="java.lang.String" itemvalue="Python.city_classify" />
-        <item index="2" class="java.lang.String" itemvalue="Python.employee_db" />
-        <item index="3" class="java.lang.String" itemvalue="Python.client (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.server (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.find" />
+        <item index="1" class="java.lang.String" itemvalue="Python.word_meanings" />
+        <item index="2" class="java.lang.String" itemvalue="Python.city_classify" />
+        <item index="3" class="java.lang.String" itemvalue="Python.employee_db" />
+        <item index="4" class="java.lang.String" itemvalue="Python.client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -805,18 +794,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/3/a/word_meanings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31007752">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2/a/city_classify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.25839794">
           <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3/a/word_meanings.py">
+    <entry file="file://$PROJECT_DIR$/3/b/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31007752">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3/b/find.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.89664084">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding />
         </state>
       </provider>
