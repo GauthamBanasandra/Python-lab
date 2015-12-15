@@ -1,0 +1,2 @@
+given an an input file, do the following using regular expression and create an output file.remove extra        whitespaces                       between two words Insert a white space after the end of a sentence (after . or ? or !).
+first letter of of each sentence should be upper case.Remove consecutive duplicate words.
