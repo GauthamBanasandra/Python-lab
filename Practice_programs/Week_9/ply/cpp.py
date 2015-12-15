@@ -30,7 +30,7 @@ t_CPP_POUND = r'\#'
 t_CPP_DPOUND = r'\#\#'
 
 # Identifier
-t_CPP_ID = r'[A-Za-z_][\w_]*'
+t_CPP_ID = r'[a-Za-z_][\w_]*'
 
 # Integer literal
 def CPP_INTEGER(t):
@@ -479,14 +479,14 @@ class Preprocessor(object):
                     
                     m = self.macros[t.value]
                     if not m.arglist:
-                        # A simple macro
+                        # a simple macro
                         ex = self.expand_macros([copy.copy(_x) for _x in m.value],expanded)
                         for e in ex:
                             e.lineno = t.lineno
                         tokens[i:i+1] = ex
                         i += len(ex)
                     else:
-                        # A macro with arguments
+                        # a macro with arguments
                         j = i + 1
                         while j < len(tokens) and tokens[j].type in self.t_WS:
                             j += 1
@@ -785,11 +785,11 @@ class Preprocessor(object):
                 m = Macro(name.value,[])
                 self.macros[name.value] = m
             elif mtype.type in self.t_WS:
-                # A normal macro
+                # a normal macro
                 m = Macro(name.value,self.tokenstrip(linetok[2:]))
                 self.macros[name.value] = m
             elif mtype.value == '(':
-                # A macro with arguments
+                # a macro with arguments
                 tokcount, args, positions = self.collect_args(linetok[1:])
                 variadic = False
                 for a in args:

@@ -100,7 +100,7 @@ t_COLON            = r':'
 t_ELLIPSIS         = r'\.\.\.'
 
 # Identifiers
-t_ID = r'[A-Za-z_][A-Za-z0-9_]*'
+t_ID = r'[a-Za-z_][a-Za-z0-9_]*'
 
 # Integer literal
 t_INTEGER = r'\d+([uU]|[lL]|[uU][lL]|[lL][uU])?'

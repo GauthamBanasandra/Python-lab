@@ -2,7 +2,7 @@ import sqlite3
 
 conn = sqlite3.connect('person.db')
 conn.execute("create table if not exists person(name text, age int, area_of_interest text, occupation text);")
-conn.execute("insert into person values('A Charma', 54, 'Music', 'Agriculture')")
+conn.execute("insert into person values('a Charma', 54, 'Music', 'Agriculture')")
 conn.execute("insert into person values('B Sharma', 45, 'Music', 'Astronaut')")
 conn.execute("insert into person values('C Rao', 14, 'Dance', 'Musician')")
 conn.execute("insert into person values('Superman Kent', 54, 'Dance', 'Cricket coach')")

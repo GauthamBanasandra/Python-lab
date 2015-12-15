@@ -21,7 +21,7 @@
 # THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
 # "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
 # LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-# A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+# a PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
 # OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
 # SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
 # LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
@@ -1129,14 +1129,14 @@ _is_identifier = re.compile(r'^[a-zA-Z0-9_-]+$')
 # class Production:
 #
 # This class stores the raw information about a single production or grammar rule.
-# A grammar rule refers to a specification such as this:
+# a grammar rule refers to a specification such as this:
 #
 #       expr : expr PLUS term 
 #
 # Here are the basic attributes defined on all productions
 #
 #       name     - Name of the production.  For example 'expr'
-#       prod     - A list of symbols on the right side ['expr','PLUS','term']
+#       prod     - a list of symbols on the right side ['expr','PLUS','term']
 #       prec     - Production precedence level
 #       number   - Production number.
 #       func     - Function that executes on reduce
@@ -1254,7 +1254,7 @@ class MiniProduction(object):
 # basic attributes:
 #
 #       name       - Name of the production.  For example 'expr'
-#       prod       - A list of symbols on the right side ['expr','.', 'PLUS','term']
+#       prod       - a list of symbols on the right side ['expr','.', 'PLUS','term']
 #       number     - Production number.
 #
 #       lr_next      Next LR item. Example, if we are ' expr -> expr . PLUS term'
@@ -1313,17 +1313,17 @@ class GrammarError(YaccError): pass
 
 class Grammar(object):
     def __init__(self,terminals):
-        self.Productions  = [None]  # A list of all of the productions.  The first
+        self.Productions  = [None]  # a list of all of the productions.  The first
                                     # entry is always reserved for the purpose of
                                     # building an augmented grammar
 
-        self.Prodnames    = { }     # A dictionary mapping the names of nonterminals to a list of all
+        self.Prodnames    = { }     # a dictionary mapping the names of nonterminals to a list of all
                                     # productions of that nonterminal.
 
-        self.Prodmap      = { }     # A dictionary that is only used to detect duplicate
+        self.Prodmap      = { }     # a dictionary that is only used to detect duplicate
                                     # productions.
 
-        self.Terminals    = { }     # A dictionary mapping the names of terminal symbols to a
+        self.Terminals    = { }     # a dictionary mapping the names of terminal symbols to a
                                     # list of the rules where they are used.
 
         for term in terminals:
@@ -1331,12 +1331,12 @@ class Grammar(object):
 
         self.Terminals['error'] = []
 
-        self.Nonterminals = { }     # A dictionary mapping names of nonterminals to a list
+        self.Nonterminals = { }     # a dictionary mapping names of nonterminals to a list
                                     # of rule numbers where they are used.
 
-        self.First        = { }     # A dictionary of precomputed FIRST(x) symbols
+        self.First        = { }     # a dictionary of precomputed FIRST(x) symbols
 
-        self.Follow       = { }     # A dictionary of precomputed FOLLOW(x) symbols
+        self.Follow       = { }     # a dictionary of precomputed FOLLOW(x) symbols
 
         self.Precedence   = { }     # Precedence rules for each terminal. Contains tuples of the
                                     # form ('right',level) or ('nonassoc', level) or ('left',level)
@@ -1383,7 +1383,7 @@ class Grammar(object):
     # Precedence is determined by the precedence of the right-most non-terminal
     # or the precedence of a terminal specified by %prec.
     #
-    # A variety of error checks are performed to make sure production symbols
+    # a variety of error checks are performed to make sure production symbols
     # are valid and that %prec is used correctly.
     # -----------------------------------------------------------------------------
 
@@ -1891,7 +1891,7 @@ class LRTable(object):
 # in LALR(1) generation.
 #
 # Inputs:  X    - An input set
-#          R    - A relation
+#          R    - a relation
 #          FP   - Set-valued function
 # ------------------------------------------------------------------------------
 
@@ -2131,7 +2131,7 @@ class LRGeneratedTable(LRTable):
     # -----------------------------------------------------------------------------
     # dr_relation()
     #
-    # Computes the DR(p,A) relationships for non-terminal transitions.  The input
+    # Computes the DR(p,a) relationships for non-terminal transitions.  The input
     # is a tuple (state,N) where state is a number and N is a nonterminal symbol.
     #
     # Returns a list of terminals.
@@ -2158,7 +2158,7 @@ class LRGeneratedTable(LRTable):
     # -----------------------------------------------------------------------------
     # reads_relation()
     #
-    # Computes the READS() relation (p,A) READS (t,C).
+    # Computes the READS() relation (p,a) READS (t,C).
     # -----------------------------------------------------------------------------
 
     def reads_relation(self,C, trans, empty):
@@ -2184,17 +2184,17 @@ class LRGeneratedTable(LRTable):
     # LOOKBACK:
     #
     # This relation is determined by running the LR(0) state machine forward.
-    # For example, starting with a production "N : . A B C", we run it forward
-    # to obtain "N : A B C ."   We then build a relationship between this final
+    # For example, starting with a production "N : . a B C", we run it forward
+    # to obtain "N : a B C ."   We then build a relationship between this final
     # state and the starting state.   These relationships are stored in a dictionary
     # lookdict.
     #
     # INCLUDES:
     #
-    # Computes the INCLUDE() relation (p,A) INCLUDES (p',B).
+    # Computes the INCLUDE() relation (p,a) INCLUDES (p',B).
     #
     # This relation is used to determine non-terminal transitions that occur
-    # inside of other non-terminal transition states.   (p,A) INCLUDES (p', B)
+    # inside of other non-terminal transition states.   (p,a) INCLUDES (p', B)
     # if the following holds:
     #
     #       B -> LAT, where T -> epsilon and p' -L-> p
@@ -2253,7 +2253,7 @@ class LRGeneratedTable(LRTable):
                      if r.name != p.name: continue
                      if r.len != p.len:   continue
                      i = 0
-                     # This look is comparing a production ". A B C" with "A B C ."
+                     # This look is comparing a production ". a B C" with "a B C ."
                      while i < r.lr_index:
                           if r.prod[i] != p.prod[i+1]: break
                           i = i + 1
@@ -2290,7 +2290,7 @@ class LRGeneratedTable(LRTable):
     # Given a set of LR(0) items, a set of non-terminal transitions, a readset,
     # and an include set, this function computes the follow sets
     #
-    # Follow(p,A) = Read(p,A) U U {Follow(p',B) | (p,A) INCLUDES (p',B)}
+    # Follow(p,a) = Read(p,a) U U {Follow(p',B) | (p,a) INCLUDES (p',B)}
     #
     # Inputs:
     #            ntrans     = Set of nonterminal transitions

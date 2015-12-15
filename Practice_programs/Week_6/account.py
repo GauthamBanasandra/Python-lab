@@ -44,7 +44,7 @@ class FD_Account(Account):
 		print('no. of transactions :', self.trans, '\n')
 
 import random as r
-a=FD_Account('A', 'Earth', r.random()*1000+1, r.random()*10+1, r.random()+1)
+a=FD_Account('a', 'Earth', r.random()*1000+1, r.random()*10+1, r.random()+1)
 b=FD_Account('B', 'Moon', r.random()*1000+1, r.random()*10+1, r.random()+1)
 c=FD_Account('C', 'Mars', r.random()*1000+1, r.random()*10+1, r.random()+1)
 d=FD_Account('D', 'Jupiter', r.random()*1000+1, r.random()*10+1, r.random()+1)
