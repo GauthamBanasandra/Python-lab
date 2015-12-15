@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46fb0284-d1d2-491b-840a-c43198a22d59" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1/A/d.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1/A/e.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Python_Lab.iws" />
@@ -54,12 +54,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="d.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="d.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1/A/d.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10335917">
+            <state vertical-scroll-proportion="0.0">
               <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="e.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1/A/e.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.25839794">
+              <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,6 +133,7 @@
         <option value="$PROJECT_DIR$/1/A/b.py" />
         <option value="$PROJECT_DIR$/1/A/c.py" />
         <option value="$PROJECT_DIR$/1/A/d.py" />
+        <option value="$PROJECT_DIR$/1/A/e.py" />
       </list>
     </option>
   </component>
@@ -224,24 +237,7 @@
       <recent name="C:\Users\gauth_000\OneDrive\Documents\Programs\Python\Python_Lab\Gui\Pack" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.d">
-    <configuration default="false" name="client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sockets/Udp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python_Lab" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sockets/Udp/client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.e">
     <configuration default="false" name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -306,6 +302,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python_Lab" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1/A/d.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="e" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1/A" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python_Lab" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1/A/e.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -433,19 +446,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.client (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.a" />
-      <item index="2" class="java.lang.String" itemvalue="Python.b" />
-      <item index="3" class="java.lang.String" itemvalue="Python.c" />
-      <item index="4" class="java.lang.String" itemvalue="Python.d" />
+      <item index="0" class="java.lang.String" itemvalue="Python.a" />
+      <item index="1" class="java.lang.String" itemvalue="Python.b" />
+      <item index="2" class="java.lang.String" itemvalue="Python.c" />
+      <item index="3" class="java.lang.String" itemvalue="Python.d" />
+      <item index="4" class="java.lang.String" itemvalue="Python.e" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.d" />
-        <item index="1" class="java.lang.String" itemvalue="Python.c" />
-        <item index="2" class="java.lang.String" itemvalue="Python.b" />
-        <item index="3" class="java.lang.String" itemvalue="Python.a" />
-        <item index="4" class="java.lang.String" itemvalue="Python.client (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.e" />
+        <item index="1" class="java.lang.String" itemvalue="Python.d" />
+        <item index="2" class="java.lang.String" itemvalue="Python.c" />
+        <item index="3" class="java.lang.String" itemvalue="Python.b" />
+        <item index="4" class="java.lang.String" itemvalue="Python.a" />
       </list>
     </recent_temporary>
   </component>
@@ -472,7 +485,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32626426" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32189542" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32189542" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -686,9 +699,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1/A/d.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10335917">
+        <state vertical-scroll-proportion="0.0">
           <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1/A/e.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25839794">
+          <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
