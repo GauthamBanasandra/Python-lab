@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46fb0284-d1d2-491b-840a-c43198a22d59" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/a/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3/a/word_meanings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3/a/word_meanings.py" afterPath="$PROJECT_DIR$/3/a/word_meanings.py" />
     </list>
     <ignored path="Python_Lab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +26,8 @@
       <file leaf-file-name="word_meanings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3/a/word_meanings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68992245">
-              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.31007752">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -818,8 +815,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3/a/word_meanings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68992245">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.31007752">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>

@@ -8,7 +8,7 @@ def add_entry(entry):
 
 
 def search(word):
-    return ', '.join(dictionary.get(word, word + " doesn't exist"))
+    return ', '.join(dictionary[word]) if word in dictionary else word + " doesn't exist"
 
 
 def synonyms(phrase):
