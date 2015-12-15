@@ -1,0 +1,1 @@
+Write a generator function which takes a range as input and generates all three element tuples which can form a right angled triangle

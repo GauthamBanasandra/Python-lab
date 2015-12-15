@@ -1,0 +1,4 @@
+Given a multiline string, encrypt the string to return a new string.
+if string starts with char, char++
+if it starts with digit, reverse
+if it starts with a dollar, swap the consecutive chars.

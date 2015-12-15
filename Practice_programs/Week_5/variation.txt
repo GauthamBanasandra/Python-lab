@@ -1,0 +1,3 @@
+Given a text file words.txt with few paragraphs(containing words, no punctuation), write a prgram to read the contents of the file and create a new file with formatted output as given below.
+1) Each line in the output file must start with an alphabet followed by the count of total no. of words(including repititions) and the list of unique words starting with that alphabet.
+2) The lines must be in alphabetical order.

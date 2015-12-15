@@ -1,0 +1,3 @@
+!Words Queue Given a text file wordstxt with few paragraphs containing words and no punctuation write a prgram to read the contents of the file and create a new file with formatted output as given below
+Each line in the output file must start with an alphabet followed by the count of total number of words including repititions and the list of unique words starting with that alphabet
+The lines must be in alphabetical order

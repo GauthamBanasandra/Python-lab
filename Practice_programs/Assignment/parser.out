@@ -1,0 +1,28 @@
+Created by PLY version 3.8 (http://www.dabeaz.com/ply)
+
+Grammar
+
+Rule 0     S' -> s
+Rule 1     s -> s s
+Rule 2     s -> LS s RS
+Rule 3     s -> LC s RC
+Rule 4     s -> LF s RF
+Rule 5     s -> TERM
+Rule 6     s -> empty
+
+Terminals, with rules where they appear
+
+LC                   : 3
+LF                   : 4
+LS                   : 2
+RC                   : 3
+RF                   : 4
+RS                   : 2
+TERM                 : 5
+error                : 
+
+Nonterminals, with rules where they appear
+
+empty                : 6
+s                    : 1 1 2 3 4 0
+

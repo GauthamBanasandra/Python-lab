@@ -1,0 +1,7 @@
+import re
+string='''hill, this is multiline string.
+Hi I don't know Java.
+java is ubquitous.'''
+s=re.finditer('hi', string, re.M|re.I)
+for i in s:
+	print(i)
